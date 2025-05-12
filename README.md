@@ -1,16 +1,41 @@
-# crypto_coin_list
+# 🪙 Crypto Coin List
 
-A new Flutter project.
+A Flutter application that displays a list of cryptocurrencies with real-time data including prices, symbols, and percentage changes.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Live crypto coin prices
+- Coin details (name, symbol, price, change %, etc.)
+- Search functionality
+- Pull-to-refresh
+- Clean, responsive UI
 
-A few resources to get you started if this is your first Flutter project:
+## 🧰 Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter** (UI Framework)
+- **Dart** (Programming Language)
+- **HTTP** package (for API calls)
+- **Provider / Riverpod / BLoC** (State Management) *(adjust based on your implementation)*
+- **CoinGecko / CoinMarketCap / Custom API** *(specify your data source)*
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Getting Started
+
+### Prerequisites
+
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Dart SDK
+- An emulator or physical device
+
+### Installation
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/your-username/crypto-coin-list.git
+cd crypto-coin-list
+flutter pub get
+flutter run
+```
+
+
+
