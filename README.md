@@ -28,14 +28,26 @@ A Flutter application that displays a list of cryptocurrencies with real-time da
 
 ### Installation
 
-1. Clone the repo:
+### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/crypto-coin-list.git
+git clone https://github.com/RafIOS96/CryptoCoin.git
 cd crypto-coin-list
+```
+
+### 2. Install dependencies:
+
+```bash
 flutter pub get
+```
+
+### 3. Run the app:
+
+```bash
 flutter run
 ```
 
+🤝 Contributing
+Contributions are welcome! Open issues or submit a pull request.
 
 
